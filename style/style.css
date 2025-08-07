@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+      font-family: "Rubik", sans-serif;
+}
+
+.heros-container {
+    height: 45vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(180px);
+}
+
+.bg-1 img {
+    height: 85%;
+    width: 85%;
+    object-fit: cover
+}
+
+.bg-2 {
+    position: absolute;
+    right: -5%;
+    height: 500px;
+    width: 500px;
+    top: 0;
+    transform: translateY(-60px) rotate(180deg);
+
+}
+
+.bg-2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-searchbar {
+    height: 45vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    gap: 30px;
+
+}
+
+.main-searchbar input {
+    height: 45px;
+    width: 380px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: white;
+}
+.main-searchbar h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.main-searchbar h1 span{
+    color: orangered;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .bg-2{
+        display: none;
+    }
+    .main-searchbar {
+        height: 45%;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+    .main-searchbar input{
+        height: 35px;
+        width: 70vw;
+        margin-top: 50px;
+    }
+    
+}
