@@ -53,7 +53,7 @@ const createRecipeCrads = () => {
 
         cardsHtml = `<div class="error-container" id="error-container">
             <div class="error-img-container">
-                <img src="../images/bowl.png" />
+                <img src="../images/blow.png" />
             </div>
             <h4>Bowl is empty..</h4>
             <button class="btn-back" id="btn-back" onclick="window.location.href = '/index.html'"><i class="ri-arrow-left-line"></i>Back to home</button>

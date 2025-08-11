@@ -20,6 +20,7 @@ const loadcategories = async () => {
                 <img src="${categories.strMealThumb}">
              </div>
              <div class="categiries-type">${categories.strMeal}</div>
+             
          </div>`
 
         }
