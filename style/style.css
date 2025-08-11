@@ -146,6 +146,10 @@ body{
     .bg-2{
         display: none;
     }
+    .bg-1{
+        transform: translateY(80px);
+    }
+
     .main-searchbar {
         height: 45%;
         width: 100vw;

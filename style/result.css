@@ -165,10 +165,12 @@ body::-webkit-scrollbar {
     }
     #main-ingredients-container{
         width: 100%;
+        margin: auto;
     
     }
     .result-container-img{
         width: 100%;
     
     }
+
 }
